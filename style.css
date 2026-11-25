@@ -242,3 +242,6 @@
 .post-cover.has-facade.playing { aspect-ratio: auto; height: 600px; cursor: auto; }
 .post-cover.has-facade.playing .embed-frame { top: 0; pointer-events: auto; }
 .post-cover.has-facade.playing::before, .post-cover.has-facade.playing svg, .post-cover.has-facade.playing .cov-tag, .post-cover.has-facade.playing .cov-cta { display: none !important; }
+.post-cover.has-facade.is-reel:not(.playing) .embed-frame { pointer-events: auto; }
+.post-cover.has-facade.is-reel:not(.playing)::before, .post-cover.has-facade.is-reel:not(.playing) svg, .post-cover.has-facade.is-reel:not(.playing) .cov-tag, .post-cover.has-facade.is-reel:not(.playing) .cov-cta { pointer-events: none; }
+.post-cover.has-facade.is-reel::before, .post-cover.has-facade.is-reel svg, .post-cover.has-facade.is-reel .cov-tag, .post-cover.has-facade.is-reel .cov-cta { transition: opacity 0.25s; }
